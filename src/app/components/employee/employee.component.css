@@ -1,0 +1,17 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-section{
+    text-align: end;
+}

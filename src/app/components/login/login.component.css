@@ -1,0 +1,12 @@
+.centered-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.user-not-registered{
+    text-align: center;
+    font-weight: 500;
+}

@@ -1,0 +1,98 @@
+<div class="page-container">
+  <div class="title-container">
+    <div class="title">
+      <h2>Empleados</h2>
+    </div>
+  </div>
+  <!--Table-->
+  <div class="tabla">
+    <table
+      mat-table
+      [dataSource]="dataSource"
+      class="mat-elevation-z8"
+      style="width: 100%"
+    >
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef class="fila">ID</th>
+        <td mat-cell class="fila" *matCellDef="let element">
+          {{ element.id }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef class="fila">Nombre</th>
+        <td mat-cell class="fila" *matCellDef="let element">
+          {{ element.name }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="job">
+        <th mat-header-cell *matHeaderCellDef class="fila">Puesto</th>
+        <td mat-cell class="fila" *matCellDef="let element">
+          {{ element.job }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="salary">
+        <th mat-header-cell *matHeaderCellDef class="fila">Salario</th>
+        <td mat-cell class="fila" *matCellDef="let element">
+          {{ element.salary }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="status">
+        <th mat-header-cell *matHeaderCellDef class="fila">Estatus</th>
+        <td mat-cell class="fila" *matCellDef="let element">
+          {{ element.status }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="dateOfHire">
+        <th mat-header-cell *matHeaderCellDef class="fila">
+          Fecha de contratación
+        </th>
+        <td mat-cell class="fila" *matCellDef="let element">
+          {{ element.dateOfHire }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="edit">
+        <th mat-header-cell *matHeaderCellDef class="fila">Editar</th>
+        <td mat-cell class="fila" *matCellDef="let element">
+          <button
+            mat-mini-fab
+            color="primary"
+            (click)="verDetalle(element)"
+          >
+            <mat-icon>edit</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="delete">
+        <th mat-header-cell *matHeaderCellDef class="fila">Eliminar</th>
+        <td mat-cell class="fila" *matCellDef="let element">
+          <button
+            mat-mini-fab
+            color="primary"
+            (click)="deleteEmployee(element)"
+          >
+            <mat-icon>delete</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr
+        mat-row
+        *matRowDef="let row; columns: displayedColumns; let element"
+        
+      ></tr>
+    </table>
+    <mat-paginator
+      style="width: 100%"
+      #paginator1
+      [length]="tamanioTabla"
+      [pageSize]="6"
+      class="shadow"
+      [pageSizeOptions]="[5, 10, 15]"
+      showFirstLastButtons
+    ></mat-paginator>
+  </div>
+
+  <div class="btn-section">
+    <button mat-raised-button color="primary">Descargar</button>
+  </div>
+</div>

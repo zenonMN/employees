@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "profilePhoto": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name": "Alejandro Mendez Mendez",
+        "job": "Obrero de línea",
+        "salary": 5000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P1",
+            "name": "",
+            "kinship": "Padre",
+            "birthday": "1998-01-01",
+            "gender": "Hombre"
+        }
+    },
+    {
+        "id": 2,
+        "profilePhoto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "name": "Amanda Carrera García",
+        "job": "Recepcionista",
+        "salary": 4000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P2",
+            "name": "",
+            "kinship": "Padre",
+            "birthday": "1998-01-01",
+            "gender": "Hombre"
+        }
+    },
+    {
+        "id": 3,
+        "profilePhoto": "https://i.pinimg.com/236x/e9/57/2a/e9572a70726980ed5445c02e1058760b.jpg",
+        "name": "Carlos Crispín Aliñado Asturias",
+        "job": "Secretario",
+        "salary": 4000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P3",
+            "name": "Estela Pérez Sarceño",
+            "kinship": "Padre",
+            "birthday": "1998-01-01",
+            "gender": "Esposa"
+        }
+    },
+    {
+        "id": 4,
+        "profilePhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJH_SWkfpDpy8Y0yPzJ0-7UBwkt9RTSFXUw&usqp=CAU",
+        "name": "César Augusto Noriega Morales",
+        "job": "vendedor",
+        "salary": 8000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P4",
+            "name": "Elder Adonias Santos Rosales",
+            "kinship": "Padre",
+            "birthday": "1998-01-01",
+            "gender": "Hombre"
+        }
+    },
+    {
+        "id": 5,
+        "profilePhoto": "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1153&q=80",
+        "name": "Héctor Leónidas Revolorio Quevedo",
+        "job": "vendedor",
+        "salary": 8000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P5",
+            "name": "Edna Indira Herrera Escobar",
+            "kinship": "Madre",
+            "birthday": "1976-02-03",
+            "gender": "Mujer"
+        }
+    },
+    {
+        "id": 6,
+        "profilePhoto": "https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/12/9-Best-Online-Avatars-and-How-to-Make-Your-Own-for-Free-image21.jpg",
+        "name": "Hugo Leonel López Villacorta ",
+        "job": "vendedor",
+        "salary": 8000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P6",
+            "name": "Delia Johana Torres Garcia",
+            "kinship": "Esposa",
+            "birthday": "1998-11-21",
+            "gender": "Mujer"
+        }
+    },
+    {
+        "id": 7,
+        "profilePhoto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flassoslabs.es%2Fcreador-de-avatares-retrato%2F&psig=AOvVaw22ucJ7oz9KeaZiK7Ek_sQB&ust=1678426229756000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMC_yYuPzv0CFQAAAAAdAAAAABAd",
+        "name": "Mario Anibal Alemán Galindo ",
+        "job": "Vendedor",
+        "salary": 8000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P7",
+            "name": "Anibal Alemán Francisco",
+            "kinship": "Padre",
+            "birthday": "1978-06-01",
+            "gender": "Hombre"
+        }
+    },
+    {
+        "id": 8,
+        "profilePhoto": "https://i.pinimg.com/236x/6d/5e/38/6d5e38d19bf4c0c9554b1e6beab75952.jpg",
+        "name": "Nancy Beatriz Calderón Muller",
+        "job": "Asistente personal",
+        "salary": 10000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P8",
+            "name": "Agustín Depaz Luis",
+            "kinship": "Esposo",
+            "birthday": "1998-11-10",
+            "gender": "Hombre"
+        }
+    },
+    {
+        "id": 9,
+        "profilePhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJH_SWkfpDpy8Y0yPzJ0-7UBwkt9RTSFXUw&usqp=CAU",
+        "name": "Octaviano Camey Ramírez",
+        "job": "Auxiliar de servicios",
+        "salary": 6000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P9",
+            "name": "Santos Margarita López López",
+            "kinship": "Esposa",
+            "birthday": "1998-10-01",
+            "gender": "Mujer"
+        }
+    },
+    {
+        "id": 10,
+        "profilePhoto": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name": "Alizeh Carrera Chicas",
+        "job": "Obrero de línea",
+        "salary": 6000,
+        "status": 1,
+        "dateOfHire": "2020-03-25",
+        "recipient": {
+            "id": "P10",
+            "name": "Rony David Carrera Barrios",
+            "kinship": "Esposo",
+            "birthday": "1989-04-03",
+            "gender": "Hombre"
+        }
+    }
+
+]

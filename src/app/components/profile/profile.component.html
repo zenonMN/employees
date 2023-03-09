@@ -1,0 +1,44 @@
+
+<div class="page-container">
+    <div class="titulo">
+        <h2>Perfil de usuario</h2>
+    </div>
+    <div class="profile-content">
+        <div class="carta contenedor-avatar" style="width: 30%;">
+            <div class="avatar">
+                <span>{{user ? user.acronym: ""}}</span>
+            </div>
+            <div class="nombre-usuario">
+                {{user ? user.name: ""}}
+            </div>
+            <button (click)="cerrarSesion()"class="mg-t-10">Cerrar Sesión</button>
+        </div>
+        <div class="carta" *ngIf="user" style="width: 50%;">
+            <h2>Datos Usuario</h2>
+            <mat-form-field class="form-field" appearance="outline">
+                <mat-label>Nombre(s)</mat-label>
+                <input matInput disabled [(ngModel)]="user.name" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+                <mat-label>Fecha de Nacimiento</mat-label>
+                <input matInput disabled [(ngModel)]="user.birthday" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+                <mat-label>Correo Electrónico</mat-label>
+                <input matInput disabled [(ngModel)]="user.email" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+                <mat-label>Teléfono</mat-label>
+                <input matInput disabled [(ngModel)]="user.phone" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+                <mat-label>Ciudad</mat-label>
+                <input matInput disabled [(ngModel)]="user.city" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="outline">
+                <mat-label>Fecha de Registro</mat-label>
+                <input matInput disabled [(ngModel)]="user.creationDate" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+        </div>
+    </div>
+</div>
