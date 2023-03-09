@@ -9,7 +9,7 @@ build-and-deploy:
 runs-on: ubuntu-latest
 steps:
 - name: Checkout
-uses: actions/checkout@master
+- uses: actions/checkout@master
 - uses: actions/setup-node@master
 with:
 node-version: '10.x'
