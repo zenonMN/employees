@@ -25,6 +25,6 @@ npm run-script deploy
 - name: Deploy
 uses: JamesIves/github-pages-deploy-action@releases/v3
 with:
-GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+GITHUB_TOKEN: ${{ secrets.kps-employees }}
 BRANCH: gh-pages
 FOLDER: dist/ksp-employees
